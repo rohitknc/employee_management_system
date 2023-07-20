@@ -1,0 +1,71 @@
+.k1
+{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/iam.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.main
+{
+    box-shadow: 0 0 0 2px #a9a7a7;
+  padding-top: 25px;
+  position: relative;
+  width:300px;
+  height: 200px;
+  left:30%;
+  top:100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  background-color: #baaeae;
+
+  align-items: center;
+  opacity: 0.9;
+  
+}
+.first
+{
+    position: relative;
+    top:-10px;
+    text-transform: capitalize;
+    color: brown;
+}
+.f1
+{
+position: relative;
+width: 100%;
+}
+input
+{
+    width: 88%;
+    padding: 5px 3px;
+    border: 1px solid #e1d7d7;
+    outline: none;
+
+}
+
+button
+{
+    top:10px;
+    background-color: rgb(241, 162, 186);
+    position: relative;
+    width: 120px;
+    height: 25px;
+    padding: 3px;
+    text-transform: uppercase;
+    border: 1px solid #d6b2b2;
+    border-radius: 10px;
+    
+   
+}
+button:hover{
+    background-color:#fff;
+    color:red;
+}
+input:focus
+{
+    box-shadow: 0 0 0 1px #59ccf3;
+}
